@@ -1,0 +1,514 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Kacper Lisikiewicz" />
+        <title>Fox On Dev</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="static/js/scripts.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="static/assets/img/foxondev_logo.png" alt="..." style="width: 150px; height: auto;" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Journey">Journey</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#technologies">Technologies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Content placeholder -->
+        <div id="content">
+            <!-- Masthead-->
+            <header class="masthead">
+                <div class="container">
+                    <div class="masthead-subheading">Welcome To Fox On Dev!</div>
+                    <div class="masthead-heading text-uppercase">Agile like a fox on</div>
+                    <a class="btn btn-primary btn-xl text-uppercase" href="#services">Find Out</a>
+                </div>
+            </header>
+            <!-- Services-->
+            <section class="page-section" id="services">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase">Services</h2>
+                        <h3 class="section-subheading text-muted">Full-Stack Development specialising in the Backend side</h3>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-database fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">Cloud & Databases</h4>
+                            <p class="text-muted">I've worked mainly with PostgresSQL and Couchbase NoSQL. I worked with Redis, and I've implemented Distributed Hazelcast caching. For analytic data I used GCP BigQuery.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">Web Development</h4>
+                            <p class="text-muted">On the backend I primarily work with Python Django & Flask. Commercially I'm involved in development of enterprise applications with Java Spring Boot. On the frontend I prefer React & NextJS.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
+                            </span>
+                            <h4 class="my-3">DevOps</h4>
+                            <p class="text-muted">I automate workflows using GitHub Actions & Jenkins. Docker is the preferred way of deployment, Kubernetes for Orchestration, and Helm charts for packaging. I worked in Agile teams with and without Jira.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio Grid-->
+            <section class="page-section bg-light" id="portfolio">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase">Portfolio</h2>
+                        <h3 class="section-subheading text-muted">Checkout the stuff I worked on. Some of it is live, go try it out!</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <!-- Portfolio item 1-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="static/assets/img/portfolio/modal1.png" alt="..." />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Designing A/B testing</div>
+                                    <div class="portfolio-caption-subheading text-muted">THG architectural transformation</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <!-- Portfolio item 2-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="static/assets/img/portfolio/modal2.png" alt="..." />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Coding Competitions</div>
+                                    <div class="portfolio-caption-subheading text-muted">Google HashCode, Kaggle, Reply</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <!-- Portfolio item 3-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="static/assets/img/portfolio/modal3.png" alt="..." />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Global Game Jam</div>
+                                    <div class="portfolio-caption-subheading text-muted">GameDev 2017-2019</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Journey -->
+            <section class="page-section" id="Journey">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase">Journey</h2>
+                        <h3 class="section-subheading text-muted">Here's what led me to becoming the Software Engineer I'm today</h3>
+                    </div>
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/journey/ggjlogo.png" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2017-2019</h4>
+                                    <h4 class="subheading">Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">It all started thanks to my high school's Game Design Club (of which I became the president in my last year!). My programming journey started with making small games in PhaserJS and later Unity C#.</p></div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/journey/swan-logo.png" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2019-2022</h4>
+                                    <h4 class="subheading">Swansea University</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">I decided to embark on an adventure to study abroad. I did my Computer Science B.Sc. in the beautiful region of South Wales. I graduated with First Class Honours! PS I got to work as a programming teaching assistant.</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/journey/ml_logo.jpg" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Mar 2021 - May 2021</h4>
+                                    <h4 class="subheading">Machine Learning with DataWorkshop</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">Covid hit, with the spare time on my hands and a growing passion for machine learning I decided to join a bootcamp led by DataWorkshop. I took part in my first Kaggle competition and got a fourth place!</p></div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/journey/mich_logo.png" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Summer 2021</h4>
+                                    <h4 class="subheading">Michelin Data Analyst Intern</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">My first position in data. After working with Excel, PowerBI, and Oracle I decided to steer my career towards software engineering. But hey! I unlocked a secret talent - knowing how to make a tyre.</p></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/journey/booksy_log.png" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Nov 2021 - Jun 2022</h4>
+                                    <h4 class="subheading">Booksy Python Developer Intern</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">In a team with two other brilliant interns, and the massive support from our Booksy mentors, I got to learn all about backend engineering and Django.</p></div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="static/assets/img/journey/thg_log.png" alt="..." /></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Sep 2022 - to Present</h4>
+                                    <h4 class="subheading">THG Software Engineer</h4>
+                                </div>
+                                <div class="timeline-body"><p class="text-muted">I joined the experimentation team in THG to expand the A/B testing capabilities, and develop an A/B testing platform as an enterprise offering. Details of projects are described in the portfolio section.</p></div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>
+                                    Be Part
+                                    <br />
+                                    Of My
+                                    <br />
+                                    Story!
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Technologies -->
+            <section class="page-section bg-light" id="technologies">
+                <div class="py-5">
+                    <div class="container">
+                        <div class="text-center">
+                            <h2 class="section-heading text-uppercase">Technologies</h2>
+                        </div>
+                        <div id="technologies-container" class="row text-center">
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Python</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/python.png" alt="python.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Flask</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/flask.png" alt="flask.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Django</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/django.png" alt="django.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Java</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/java.png" alt="java.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Spring Boot</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/spring_boot.png" alt="spring_boot.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>TypeScript</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/typescript.png" alt="typescript.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Next.js</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/nextjs.png" alt="nextjs.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Kubernetes</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/kubernetes.png" alt="kubernetes.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Microservices</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/microservices.png" alt="microservices.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Docker</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/docker.png" alt="docker.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Helm</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/helm.png" alt="helm.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>MS SQL Server</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/mssql.png" alt="mssql.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>PostgreSQL</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/postgresql.png" alt="postgresql.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Couchbase</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/couchbase.png" alt="couchbase.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Distributed Hazelcast</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/hazelcast.png" alt="hazelcast.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Redis</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/redis.png" alt="redis.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>BigQuery</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/bigquery.png" alt="bigquery.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>GitHub CI/CD</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/github_cicd.png" alt="github_cicd.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Jenkins</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/jenkins.png" alt="jenkins.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>SonarQube</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/sonarqube.png" alt="sonarqube.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Swagger</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/swagger.png" alt="swagger.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Postman</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/postman.png" alt="postman.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Pydantic</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/pydantic.png" alt="pydantic.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>OAuth2</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/oauth2.png" alt="oauth2.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>REST APIs</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/restapi.png" alt="restapi.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Agile</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/agile.png" alt="agile.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Jira</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/jira.png" alt="jira.png" />
+                            </div>
+                            <div class="col-md-3 col-sm-6 my-3 tech-item">
+                                <h4>Confluence</h4>
+                                <img class="img-fluid img-brand d-block mx-auto" src="static/assets/img/technologies/confluence.png" alt="confluence.png" />
+                            </div>
+                        </div>
+
+                        <!-- Pagination controls -->
+                        <div class="row">
+                            <div class="col text-center">
+                                <nav aria-label="Page navigation">
+                                    <ul class="pagination justify-content-center" id="pagination-controls">
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="static/js/pagination.js"></script>
+            </section>
+            <!-- About -->
+            <section class="page-section" id="about">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase">About Me!</h2>
+                        <div class="timeline-body about-me-text">
+                            <p>Hi, I'm Kacper Lisikiewicz!</p>
+                            <p>As you might already know, I'm a software engineer!</p>
+                            <p>Outside of work, I like to do many sports, but the main ones are </p>
+                            <p>bouldering, sailing, hiking, basketball and beach volleyball in the summer.</p>
+                            <p>On a more chill day I like to hang out with my friends, play board games (especially Scythe),</p>
+                            <p>play video games, watch shows, and sometimes do a karaoke night.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="about-me-container">
+                                <div class="about-me-pic">
+                                    <img class="mx-auto rounded-circle" src="static/assets/img/about/me_pic.JPG" alt="me_pic" />
+                                    <h5>That's me!</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer-->
+            <footer class="footer py-4 bg-light">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 text-lg-start">Copyright &copy; 2024 FoxOnDev Inc, Some Rights Reserved</div>
+                        <div class="col-lg-4 my-3 my-lg-0">
+                            <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://github.com/Kacper-Lis" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.linkedin.com/in/kacper-lisikiewicz-9631891a2/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="link-dark text-decoration-none me-3">Contact me on Linkedin</a>
+                        </div>
+                        <div class="col-lg-4 text-lg-end">
+                            <a hidden="hidden" class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                            <a hidden="hidden" class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Portfolio Modals-->
+            <!-- Portfolio item 1 modal popup-->
+            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-bs-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project details-->
+                                        <h2 class="text-uppercase">Designing A/B testing</h2>
+                                        <p class="item-intro text-muted">How I transformed A/B testing in THG.</p>
+                                        <p>Hey I'm yet to write a complete description here, but I'll be happy to talk about it!</p>
+                                        <ul class="list-inline">
+                                            <li>
+                                                <strong>Project</strong>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                            <i class="fas fa-xmark me-1"></i>
+                                            Close Project
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio item 1 modal popup-->
+            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-bs-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project details-->
+                                        <h2 class="text-uppercase">Coding Competitions</h2>
+                                        <p class="item-intro text-muted">This is my journey with coding competitions.</p>
+                                        <p>The most notable one was 2022 Google HashCode where I got 10th place in the UK and 175th worldwide almost making it into the finals. I set a new unbeaten record at my University.</p>
+                                        <p>As part of my machine learning journey I took part in a couple of Kaggle competitions, achieving 4th place in the competition hosted by DataWorkshop about real estate price estimation.</p>
+                                        <p>In the reply code challenges the highest I achieved was 98th place in 2024, (my algorithms got rusty since I started working as backend dev!) but I got a 9th place in the Sustainable Investment Challenge!</p>
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="https://github.com/Kacper-Lis/Google-HashCodes">Google HashCode repo</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://github.com/Kacper-Lis/PMLkaggle">Kaggle Price Estimation repo</a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://github.com/Kacper-Lis/ReplyCodeChallenges">Reply Challenges repo</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                            <i class="fas fa-xmark me-1"></i>
+                                            Close Project
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio item 3 modal popup-->
+            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-bs-dismiss="modal"><img src="static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project details-->
+                                        <h2 class="text-uppercase">Global Game Jam</h2>
+                                        <p class="item-intro text-muted">Game dev sparked me to become a software engineer!</p>
+                                        <p>It all started thanks to the game design club at my high school. With my friend we picked up coding and made our first silly games. Following that we were chosen to go with the team to our first Global Game Jam!</p>
+                                        <p>After the two game jams my game dev journey was stagnant until I picked up a game design module in my third year of uni. For my coursework we were to choose a retro game to make and I chose Tetris. This journey is not over yet, I'm looking to pickup Godot and have another go at making a complete game.</p>
+                                        <ul class="list-inline">
+                                            <li>
+                                                <a target="_blank" href="https://github.com/Kacper-Lis/University/tree/main/3rd%20year/Tetris/static/assets">Tetris repo</a>
+                                                <p>Uni project made in Unity C#, quite proud of this one, first time using events and subscriber pattern</p>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://github.com/Kacper-Lis/GGJ2019">GGJ2019 repo</a>
+                                                <p>Our tower defense game made in Unity C#</p>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="https://github.com/Kacper-Lis/GGJ2017">GGJ2017 repo</a>
+                                                <p>This one was made using PhaserJS. You can play it in the browser, the link is in the repo!</p>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                            <i class="fas fa-xmark me-1"></i>
+                                            Close Project
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
